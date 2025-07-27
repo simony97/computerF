@@ -26,3 +26,20 @@ img {
     display: block;
     margin-bottom: 20px;
 }
+.back-button {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.back-button a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.back-button a:hover {
+  background-color: #555;
+}
