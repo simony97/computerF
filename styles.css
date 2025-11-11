@@ -11,6 +11,16 @@ header, footer {
     text-align: center;
     padding: 1em;
 }
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  background-color: #666; /* cinza escuro no hover */
+  color: #fff;
+}
 
 main {
     padding: 20px;
@@ -25,4 +35,17 @@ img {
     height: auto;
     display: block;
     margin-bottom: 20px;
+}
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
