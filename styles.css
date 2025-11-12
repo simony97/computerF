@@ -1,11 +1,11 @@
-header {
+head {
   text-align: center;
   background-color: #333;
   color: white;
   padding: 20px;
 }
 
-header img {
+head img {
   display: block;
   margin: 0 auto;
   width: 100px;
@@ -87,3 +87,4 @@ product-grid {
   height: auto;
   border-radius: 10px;
 }
+
