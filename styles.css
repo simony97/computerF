@@ -1,3 +1,16 @@
+header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -18,7 +31,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #666; /* cinza escuro no hover */
+  background-color: #666;
   color: #fff;
 }
 
@@ -48,4 +61,29 @@ form input, form select {
   margin-top: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espaço entre os links */
+}
+product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
 }
