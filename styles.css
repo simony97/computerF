@@ -68,17 +68,7 @@ nav ul {
   margin: 10px 0;
   display: flex;
   justify-content: center;
-  gap: 20px; /* espaço entre os links */
-}
-product-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-}
-
-.product-item {
-  text-align: center;
+  gap: 20px; 
 }
 
 .product-item img {
@@ -106,4 +96,5 @@ product-grid {
   height: auto;
   border-radius: 10px;
 }
+
 
