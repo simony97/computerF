@@ -1,38 +1,52 @@
-head {
+/* HEADER */
+header {
   text-align: center;
   background-color: #333;
   color: white;
   padding: 20px;
 }
-  
-head img {
-  img-align: center;
+
+header img {
   display: block;
   margin: 0 auto;
   width: 100px;
 }
-}
-header-inner {
+
+/* HEADER INNER WRAPPER */
+.header-inner {
   display: flex;
-  flex-direction: column;     
-  align-items: center;       
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   gap: 8px;
 }
 
+/* BODY */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
+/* HEADER + FOOTER */
 header, footer {
-    background-color: #004080;
-    color: white;
-    text-align: center;
-    padding: 1em;
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 1em;
 }
+
+/* NAVIGATION MENU */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 nav a {
   color: white;
   text-decoration: none;
@@ -44,20 +58,24 @@ nav a:hover {
   color: #fff;
 }
 
+/* MAIN CONTENT */
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 h1, h2 {
-    color: #0b0c0e;
+  color: #0b0c0e;
 }
 
+/* IMAGES */
 img {
-    width: 100px;
-    height: auto;
-    display: block;
-    margin-bottom: 20px;
+  width: 100px;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
 }
+
+/* FORMS */
 form label {
   display: block;
   margin-top: 10px;
@@ -71,36 +89,23 @@ form input, form select {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px; 
-}
 
-product-item img {
-  width: 100%;
-  max-width: 250px;
-  height: auto;
-  border-radius: 10px;
-}
-product-container {
+/* PRODUCT GRID */
+.product-container {
   display: flex;
-  flex-wrap: wrap;       
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;              
+  gap: 20px;
   padding: 20px;
 }
 
-product-item {
-  flex: 1 1 30%;         
-  max-width: 300px;       
+.product-item {
+  flex: 1 1 30%;
+  max-width: 300px;
   text-align: center;
 }
 
-product-item img {
+.product-item img {
   width: 100%;
   height: auto;
   border-radius: 10px;
